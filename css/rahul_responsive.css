@@ -1,0 +1,241 @@
+@media only screen and (max-width: 600px) {
+
+    /* Contact Css Start */
+    .cs1 {
+        background-image: url(../img/cs1_mobbg.png);
+        padding: 138px 0px 72px 0px;
+    }
+
+    .cs1_container {
+        max-width: 327px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        align-self: stretch;
+    }
+
+    .cs1_title {
+        font-size: 42px;
+    }
+
+    .cs1_subtitle {
+        font-size: 16px;
+    }
+
+    .cs2 {
+        background-image: url(../img/cs2_mobbg.png);
+    }
+
+    .cs2_container {
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .cs2_left {
+        padding: 52px 24px 0px 24px;
+        width: 100%;
+        gap: 24px;
+    }
+
+    .cs2_title {
+        font-size: 30px;
+    }
+
+    .cs2_subtitle {
+        font-size: 16px;
+    }
+
+    .cs2_lefttop {
+        gap: 16px;
+    }
+
+    .cs2_leftbottom {
+        gap: 8px;
+    }
+
+    .cs3 {
+        background-image: url(../img/cs3_mobbg.png);
+        padding: 48px 0px;
+    }
+
+    .cs3_container {
+        max-width: 327px;
+        padding: 36px 24px;
+        gap: 24px;
+        border: 2px solid #D0221A;
+    }
+
+    .cs3_title {
+        font-size: 30px;
+    }
+
+    .cs3_form {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .cs3_left {
+        width: 100%;
+        gap: 8px;
+    }
+
+    .captcha_buttonbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .check_captchabar {
+        margin-top: 16px;
+    }
+
+    /* Checkbox Start */
+    .login_strongF {
+        letter-spacing: 0px;
+    }
+
+    .term_link {
+        letter-spacing: 0px;
+    }
+
+    /* Checkbox End */
+    /* Contact Css End */
+
+
+    /* Dashboard Css Start */
+    .dashboard_section {
+        background-image: url(../img/dashboard_mobbg.png);
+        padding: 108px 0px 40px 0px;
+    }
+
+    .dashboard_container {
+        padding: 0px 24px;
+        gap: 18px;
+    }
+
+    .dashboard_top {
+        gap: 18px;
+    }
+
+    .dashboard_title {
+        font-size: 42px;
+    }
+
+    .dashbard_subtitle {
+        font-size: 16px;
+    }
+
+    .subtitle_link {
+        font-size: 16px;
+    }
+
+    .account_maindiv {
+        width: 327px;
+        padding: 36px 24px;
+        gap: 36px;
+    }
+
+    .account_topform {
+        flex-direction: column;
+    }
+
+    .account_bottomform {
+        flex-direction: column;
+    }
+
+    .account_title {
+        font-size: 30px;
+    }
+
+    .name_pass {
+        width: 100%;
+    }
+
+    .account_top {
+        gap: 18px;
+    }
+
+    .account_bottom {
+        gap: 18px;
+    }
+
+    .account_topform {
+        gap: 8px;
+    }
+
+    .account_bottomform {
+        gap: 8px;
+    }
+
+    .name_pass {
+        gap: 8px;
+    }
+
+    .dashboard_bottombar {
+        gap: 42px;
+    }
+
+    .order_maindiv {
+        max-width: 327px;
+        padding: 36px 24px;
+        gap: 24px;
+    }
+
+    .order_info {
+        max-width: 182px;
+    }
+
+    .order_card {
+        max-width: 279px;
+        padding: 0px;
+        gap: 12px;
+    }
+
+    .valorant_desc {
+        display: none;
+    }
+
+    .valorant_mob {
+        display: block;
+    }
+
+    .order_middlebar {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .order_description {
+        font-size: 14px;
+        letter-spacing: 1.1px;
+    }
+
+    .order_pricing {
+        font-size: 14px;
+    }
+
+    .card_title {
+        font-size: 18px;
+    }
+
+    .card_titlered {
+        font-size: 18px;
+    }
+
+    /* Dashboard Css End */
+}
+
+@media only screen and (min-width: 1200px) and (max-width:1348px) {}
+
+@media only screen and (min-width: 1349px) and (max-width:1439px) {}
+
+@media only screen and (min-width: 1440px) and (max-width:1499px) {}
+
+@media only screen and (min-width: 1500px) and (max-width:1599px) {}
+
+@media only screen and (min-width: 1600px) and (max-width:1699px) {}
+
+@media only screen and (min-width: 1700px) and (max-width:1799px) {}
+
+@media only screen and (min-width: 1800px) and (max-width:1919px) {}

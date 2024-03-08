@@ -1,0 +1,139 @@
+@media only screen and (max-width: 600px) {
+
+    .login_section {
+        background-image: url(../img/loginmob_bg.svg);
+        padding: 70px 0px 0px 0px;
+    }
+
+    .log_container {
+        padding: 48px 0px 53px 0px;
+        margin: auto;
+        max-width: 327px;
+        gap: 32px;
+    }
+
+    .login_title {
+        margin: 0px;
+        font-size: 42px;
+    }
+
+    .login_con {
+        gap: 32px;
+    }
+
+    .login_subtitle {
+        width: auto;
+        margin: 0px;
+    }
+
+    .login_bottom {
+        max-width: 327px;
+        padding: 36px 24px;
+        gap: 24px;
+    }
+
+    .form_title {
+        font-size: 30px;
+        display: none;
+    }
+
+    .form_mtitle {
+        font-size: 30px;
+        display: block;
+        margin: 0px;
+    }
+
+    .forgot_title {
+        font-size: 30px;
+        display: block;
+        margin: 0px;
+    }
+
+    .form_section {
+        gap: 18px;
+        width: 279px;
+    }
+
+    .login_form {
+        gap: 8px;
+    }
+
+    .forgot_passlink {
+        letter-spacing: 0px;
+    }
+
+    .login_top {
+        gap: 18px;
+    }
+
+    .loginform_section {
+        gap: 8px;
+    }
+
+    .submit_btn {
+        font-size: 16px;
+    }
+
+    .submit_btn:hover {
+        font-size: 16px;
+    }
+
+    .signupform_section {
+        gap: 24px;
+    }
+
+    .new_user {
+        margin: 0px;
+        width: 237px;
+        align-self: center;
+    }
+
+    .checkbox {
+        width: auto;
+    }
+
+    .signup_link {
+        margin: 0px;
+    }
+
+    .signup {
+        display: flex;
+        height: 32px;
+        flex-direction: column;
+        justify-content: center;
+        align-self: stretch;
+    }
+
+    .terms_sec {
+        width: 279px;
+        margin-left: 12px;
+    }
+
+    .signup_bottom {
+        padding: 36px 24px;
+        gap: 24px;
+        margin: 0px;
+    }
+
+    .signup_form {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .pass_terms_section {
+        width: 279px;
+        gap: 18px;
+    }
+
+    .user_info {
+        width: 279px;
+        gap: 8px;
+        height: auto;
+    }
+
+    .captcha_section {
+        gap: 10px;
+        flex-direction: column;
+        align-self: center;
+    }
+}

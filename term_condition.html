@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedDragonMMO</title>
+
+    <!-- Style Sheets -->
+
+    <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/m_styles.css">
+    <link rel="stylesheet" href="./css/s_styles.css">
+    <link rel="stylesheet" href="./css/s_responsive.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="fixed-top">
+        <div class="header_top">
+            <div class="container desktop_header">
+                <div class="header_main_container">
+                    <div class="header_left">
+                        <a href="./index.html">
+                            <img src="./img/header_logo.svg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+
+                    <div class="header_center">
+                        <button class="btn btn_header">
+                            Store
+                        </button>
+                        <button class="btn btn_header">
+                            sell your loot
+                        </button>
+                        <button class="btn btn_header">
+                            About Us
+                        </button>
+                        <button class="btn btn_header">
+                            Contact us
+                        </button>
+                    </div>
+                    
+                    <div class="header_right">
+                        <div class="currency_drop_div">
+                            <button class="btn btn_header" onclick="currency_drop('currency_drop', 'currency_drop_logo')">
+                                USD
+                                <img src="./img/currency_drop_ico.svg" alt="" class="img-fluid" id="currency_drop_logo">
+                            </button>
+                            <div class="currency_drop d-none" id="currency_drop">
+                                <button class="btn btn_header">EUR</button>
+                                <button class="btn btn_header">GBP</button>
+                            </div>
+                        </div>
+                        <div class="header_bar"></div>
+                        <button class="btn btn_header">
+                            Account
+                        </button>
+                        <div class="cart_drop_div">
+                            <button class="btn btn_header" id="cart_btn" onclick="desk_cart()">
+                                Cart (1)
+                            </button>
+                            <div class="cart_drop d-none" id="cart_drop">
+                                <div class="cart_drop_top">
+                                    <div class="cart_product_row">
+                                        <div class="cart_product_row_left">
+                                            <img src="./img/cart_prod_drop_img.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="cart_product_row_right">
+                                            <div class="gruped">
+                                                <div class="gruped_left">
+                                                    <p class="product_title">
+                                                        Valorant <br>
+                                                        100 Gold <br>
+                                                        In-Game Name:<br>John Smith 123 <br>
+                                                        Account Origin Country:<br> United Kingdom
+                                                    </p>
+                                                    <p class="prod_price">£50.00</p>
+                                                </div>
+                                                <div class="gruped_right">
+                                                    <h4 class="prod_quantity">QTY : 1</h4>
+                                                    <button class="btn btn_rm">
+                                                        Remove
+                                                        <img src="./img/bin.svg" alt="" class="img-fluid">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cart_product_row">
+                                        <div class="cart_product_row_left">
+                                            <img src="./img/cart_prod_drop_img.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="cart_product_row_right">
+                                            <div class="gruped">
+                                                <div class="gruped_left">
+                                                    <p class="product_title">
+                                                        Valorant <br>
+                                                        100 Gold <br>
+                                                        In-Game Name:<br>John Smith 123 <br>
+                                                        Account Origin Country:<br> United Kingdom
+                                                    </p>
+                                                    <p class="prod_price">£50.00</p>
+                                                </div>
+                                                <div class="gruped_right">
+                                                    <h4 class="prod_quantity">QTY : 1</h4>
+                                                    <button class="btn btn_rm">
+                                                        Remove
+                                                        <img src="./img/bin.svg" alt="" class="img-fluid">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cart_drop_bottom">
+                                    <div class="cart_drop_bottom_top">
+                                        <p class="cart_tot">TOTAL</p>
+                                        <p class="cart_tot">£62.71</p>
+                                    </div>
+                                    <button class="btn cart_che_btn">Secure checkout</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mobile_header">
+                <div class="header_mobo_main">
+                    <div class="header_mobo_left">
+                        <!-- <button class="btn p-0"> -->
+                            <img src="./img/header_mobo.svg" alt="" class="img-fluid">
+                        <!-- </button> -->
+                    </div>
+                    <div class="header_mobo_right">
+                        <div class="cart_btn_div">
+                            <button class="btn btn_cart_mobo hamburger_cart">
+                                Cart (1)
+                            </button>
+                            <div class="header_mobo_bar"></div>
+                        </div>
+                        <div class="hamburger_menu">
+                            <img src="./img/hamburger_logo.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="hamburger_menu_close" style="display: none;">
+                            <img src="./img/hamburger_close.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="cart_menu_close" style="display: none;">
+                            <img src="./img/hamburger_close.svg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_mobo_main_slide" style="display: none;">
+            <div class="header_main_mobo">
+                <button class="btn btn_header">
+                    Store
+                </button>
+                <button class="btn btn_header">
+                    sell your loot
+                </button>
+                <button class="btn btn_header">
+                    About Us
+                </button>
+                <button class="btn btn_header">
+                    Contact us
+                </button>
+                <div class="currency_drop_div">
+                    <button class="btn btn_header mx-auto" onclick="currency_drop('currency_drop2', 'currency_drop_logo2')">
+                        USD
+                        <img src="./img/currency_drop_ico.svg" alt="" class="img-fluid" id="currency_drop_logo2">
+                    </button>
+                    <div class="currency_drop d-none" id="currency_drop2">
+                        <button class="btn btn_header">EUR</button>
+                        <button class="btn btn_header">GBP</button>
+                    </div>
+                </div>
+                <button class="btn btn_header">
+                    Account
+                </button>
+
+            </div>
+        </div>
+        <div class="header_cart_mobo_main_slide" style="display: none;">
+            <div class="main_cart_drop">
+                <p class="xyz">Cart Summary</p>
+                <div class="cart_drop_top">
+                    <div class="cart_product_row">
+                        <div class="cart_product_row_left">
+                            <img src="./img/cart_prod_drop_img.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="cart_product_row_right">
+                            <div class="gruped">
+                                <div class="gruped_left">
+                                    <p class="product_title">
+                                        Valorant <br>
+                                        100 Gold <br>
+                                        In-Game Name:<br>John Smith 123 <br>
+                                        Account Origin Country:<br> United Kingdom
+                                    </p>
+                                    <div class="blabla">
+                                        <div class="blablabla">
+                                            <h4 class="prod_quantity">QTY : 1</h4>
+                                            <p class="prod_price">£50.00</p>
+                                        </div>
+                                        <button class="btn btn_rm">
+                                            Remove
+                                            <img src="./img/bin.svg" alt="" class="img-fluid">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart_product_row">
+                        <div class="cart_product_row_left">
+                            <img src="./img/cart_prod_drop_img.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="cart_product_row_right">
+                            <div class="gruped">
+                                <div class="gruped_left">
+                                    <p class="product_title">
+                                        Valorant <br>
+                                        100 Gold <br>
+                                        In-Game Name:<br>John Smith 123 <br>
+                                        Account Origin Country:<br> United Kingdom
+                                    </p>
+                                    <div class="blabla">
+                                        <div class="blablabla">
+                                            <h4 class="prod_quantity">QTY : 1</h4>
+                                            <p class="prod_price">£50.00</p>
+                                        </div>
+                                        <button class="btn btn_rm">
+                                            Remove
+                                            <img src="./img/bin.svg" alt="" class="img-fluid">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart_drop_bottom">
+                    <div class="cart_drop_bottom_top">
+                        <p class="cart_tot">TOTAL</p>
+                        <p class="cart_tot">£62.71</p>
+                    </div>
+                    <button class="btn cart_che_btn">Secure checkout</button>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+
+    <section class="term_section">
+        <div class="container term_div">
+            <h1 class="term_h1">Terms & Conditions</h1>
+            <p class="term_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu gravida convallis mattis nunc. Scelerisque aliquam ut morbi ut fermentum, sagittis, blandit. Nisl, pharetra donec congue odio. Elit habitant vel ut faucibus facilisi odio magna. Aliquam volutpat tincidunt posuere et fringilla. Diam gravida ac suscipit amet.
+                Dictum lacus vitae proin nulla pellentesque vitae, nec pharetra, elementum. Elit fringilla laoreet ultrices hendrerit id gravida ac pulvinar montes. Purus rhoncus sed venenatis varius habitasse a placerat. Ac tempus, augue neque malesuada donec mauris dui nulla. In faucibus risus praesent eget et risus. Aliquam diam non nullam cum urna id duis blandit urna. Tempus adipiscing eu varius sit libero consectetur enim enim sed. Eu, sit vulputate feugiat est non venenatis, nunc. Sollicitudin ut aliquet mauris urna nisi, dictum vitae justo. Felis amet, arcu, dapibus scelerisque scelerisque id fringilla amet erat. Mus orci metus, viverra amet commodo feugiat. Elit magna sapien quisque ornare nec pulvinar pharetra.
+                <br><br>
+                Facilisi vulputate netus bibendum eget facilisis nulla purus lectus. Faucibus non aliquet enim elementum in. Arcu, gravida pretium nibh ut. Ac senectus tristique amet aliquam faucibus nibh semper mi. Aliquet et nunc, eu tortor nec maecenas proin. Tellus nisi tellus habitant sagittis. Tincidunt id nunc viverra adipiscing commodo et habitant feugiat commodo. Elementum nisl et nulla ut habitant interdum pellentesque iaculis integer. Placerat tellus duis mattis id vitae. Lobortis praesent malesuada sit eget congue vulputate fusce eget ut.
+                <br><br>
+                Aenean sed ullamcorper dictum amet vestibulum. Tempus maecenas risus amet a in viverra nam mauris in. Blandit tristique dui lobortis in vitae molestie. Egestas in faucibus odio ac turpis laoreet sit turpis non. Cras quam malesuada iaculis nisi, tellus augue eu. A vel donec sit fringilla eu senectus auctor hendrerit. Blandit mattis ullamcorper quis dolor nunc purus pharetra, tempor.
+                <br><br>
+                Nec imperdiet etiam turpis faucibus. Ultrices vulputate interdum lectus nunc nam et nunc accumsan. Suspendisse nec eget dui cras ut turpis. Sit faucibus convallis pharetra bibendum et. Arcu faucibus leo eu, scelerisque. Potenti velit dui morbi senectus tellus, fermentum. Tristique vitae lobortis purus duis id. Blandit nibh volutpat, condimentum ornare felis, amet vel elit. Elementum nibh blandit diam facilisis pellentesque eu turpis. Hac massa blandit fames tortor, egestas tristique lectus. Enim pellentesque est viverra nibh a. Tortor phasellus vitae duis morbi mus amet. Egestas potenti feugiat scelerisque sed adipiscing</p>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="container">
+                <div class="footer_main">
+                    <div class="footer_logo">
+                        <img src="./img/footer_logo.svg" alt="" class="img-fluid">
+                    </div>
+                    <div class="footer_right">
+                        <div class="footer_right_l">
+                            <p class="footer_titles">Company</p>
+                            <p class="footer_add">
+                                Company name <br>
+                                123 place, longdale close, City, <br>
+                                Post code, country
+                            </p>
+                            <img src="./img/mastercard.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="footer_right_r">
+                            <p class="footer_titles">Our Games</p>
+                            <div class="footer_right_r_bottom">
+                                <div class="footer_link_div">
+                                    <a href="" class="footer_link">Valorant</a>
+                                    <a href="" class="footer_link">Runescape&nbsp;3</a>
+                                    <a href="" class="footer_link">Lost Ark Gold</a>
+                                    <a href="" class="footer_link">Eve Online</a>
+                                    <a href="" class="footer_link">Elden Ring</a>
+                                    <a href="" class="footer_link">Lords Mobile Diamonds</a>
+                                </div>
+                                <div class="footer_link_div">
+                                    <a href="" class="footer_link">Temtem</a>
+                                    <a href="" class="footer_link">Tiny Tina's Wonderlands</a>
+                                    <a href="" class="footer_link">Forza Motorsport 7</a>
+                                    <a href="" class="footer_link">Elsworld</a>
+                                    <a href="" class="footer_link">Smite</a>
+                                    <a href="" class="footer_link">MU Legend</a>
+                                </div>
+                                <div class="footer_link_div">
+                                    <a href="" class="footer_link">Path of Exile</a>
+                                    <a href="" class="footer_link">Sea of thieves</a>
+                                    <a href="" class="footer_link">Asphalt 9</a>
+                                    <a href="" class="footer_link">World of Warcraft</a>
+                                    <a href="" class="footer_link">Star Wars The Old Republic</a>
+                                    <a href="" class="footer_link">Fortnite</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="footer_bot_info">
+                    <div class="footer_bot_info_left">
+                        <a href="" class="footer_link">Terms & Conditions</a>
+                        <p class="footer_link">•</p>
+                        <a href="" class="footer_link">Privacy Policy</a>
+                        <p class="footer_link">•</p>
+                        <a href="" class="footer_link">Cookie Policy</a>
+                    </div>
+                    <div class="footer_bot_info_right">
+                        <p class="footer_copyright">
+                            Copyright: 2024 Reddragonmmo.Co All Rights Reserved. This site is not affiliated or owned by the listed gaming platform owners.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+        
+   
+
+    <script src="./dist/js/jquery.min.js"></script>
+    <script src="./dist/js/owl.carousel.js"></script>
+    <!-- <script src="./dist/js/bootstrap.min.js"></script>
+    <script src="./dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    
+    <script>
+        $(document).ready(function() {
+            $(".hamburger_menu").click(function(){
+                $(".header_mobo_main_slide").fadeIn("slow");
+                $(".hamburger_menu").fadeOut("slow");
+                $(".hamburger_menu_close").fadeIn("slow");
+            });
+            $(".hamburger_menu_close").click(function(){
+                $(".header_mobo_main_slide").fadeOut("slow");
+                $(".hamburger_menu").fadeIn("slow");
+                $(".hamburger_menu_close").fadeOut("slow");
+            });
+            $(".hamburger_cart").click(function(){
+                $(".header_cart_mobo_main_slide").fadeIn("slow");
+                $(".hamburger_menu").fadeOut("slow");
+                $(".cart_menu_close").fadeIn("slow");
+            });
+            $(".cart_menu_close").click(function(){
+                $(".header_cart_mobo_main_slide").fadeOut("slow");
+                $(".cart_menu_close").fadeOut("slow");
+                $(".hamburger_menu").fadeIn("slow");
+            });
+        });
+
+        
+
+        function currency_drop(drop_id, logo_id) {
+            var a = document.getElementById(drop_id);
+            var b = document.getElementById(logo_id);
+            if (a.classList.contains('d-none')) {
+                a.classList.remove('d-none');
+                b.style.rotate = '180deg';
+            } else {
+                a.classList.add('d-none')
+                b.style.rotate = '0deg';
+            }
+        }
+        
+        function desk_cart() {
+            var a = document.getElementById('cart_drop');
+            var b = document.getElementById('cart_btn');
+            if (a.classList.contains('d-none')) {
+                a.classList.remove('d-none');
+                b.classList.add('active');
+            } else {
+                a.classList.add('d-none');
+                b.classList.remove('active');
+            }
+        }
+
+
+    </script>
+
+</body>
+</html>

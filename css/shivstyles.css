@@ -1,0 +1,504 @@
+.login_section {
+    background-image: url(../img/loginbg.svg);
+    padding: 82px 0px 0px 0px;
+}
+
+.log_container {
+    padding: 80px 0px;
+    margin: auto;
+    gap: 48px;
+}
+
+.login_top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.login_title{
+    color: var(--Text-beige, #FFE8CF);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Desktop/H1 */
+font-family: Bellefair;
+font-size: 72px;
+font-style: normal;
+font-weight: 400;
+line-height: 94.8%; /* 68.256px */
+letter-spacing: 3px;
+text-transform: uppercase;
+margin: 0px;
+}
+
+.login_con{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.login_subtitle{
+    color: var(--Text-beige, #FFE8CF);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Desktop/Body */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+width: 685px;
+margin: 0px;
+}
+
+.login_bottom{
+    border-radius: 4px;
+border: 3px solid #D0221A;
+background: rgba(30, 31, 33, 0.80);
+display: flex;
+padding: 56px;
+flex-direction: column;
+align-items: center;
+gap: 42px;
+max-width: 690px;
+margin: auto;
+}
+
+
+.signup_bottom{
+    border-radius: 4px;
+border: 3px solid #D0221A;
+background: rgba(30, 31, 33, 0.80);
+display: flex;
+padding: 56px;
+flex-direction: column;
+align-items: center;
+gap: 42px;
+margin: auto;
+}
+
+.form_title{
+    color: var(--Accent-red, #D0221A);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+margin: 0px;
+
+/* Desktop/H2 */
+font-family: Bellefair;
+font-size: 52px;
+font-style: normal;
+font-weight: 400;
+line-height: 94.8%; /* 49.296px */
+letter-spacing: 3px;
+text-transform: uppercase;
+margin: 0px;
+}
+
+.form_mtitle{
+    color: var(--Accent-red, #D0221A);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Desktop/H2 */
+font-family: Bellefair;
+font-size: 52px;
+font-style: normal;
+font-weight: 400;
+line-height: 94.8%; /* 49.296px */
+letter-spacing: 3px;
+text-transform: uppercase;
+display: none;
+}
+
+.forgot_title{
+    color: var(--Accent-red, #D0221A);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Desktop/H2 */
+font-family: Bellefair;
+font-size: 52px;
+font-style: normal;
+font-weight: 400;
+line-height: 94.8%; /* 49.296px */
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+
+
+
+
+.form_section{
+    display: flex;
+width: 558px;
+flex-direction: column;
+align-items: flex-start;
+gap: 36px;
+}
+
+.signupform_section{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 36px;
+}
+
+
+.login_form{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+align-self: stretch;
+}
+
+.terms_section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.captcha_sec{
+    display: flex;
+justify-content: space-between;
+align-items: flex-start;
+align-self: stretch;
+}
+.login_text{
+    border-radius: 4px;
+border: 1px solid #171717;
+background: var(--Dark, #1E1F21);
+display: flex;
+height: 48px;
+padding: 8px 12px;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+color: var(--Text-beige, #FFE8CF);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 2px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+flex: 1 0 0;
+align-self: stretch;
+}
+
+::placeholder{
+    font-size: 14px;
+    color: var(--Text-beige, #FFE8CF);
+}
+
+.forgot_passlink{
+    display: flex;
+height: 32px;
+flex-direction: column;
+justify-content: center;
+align-self: stretch;
+color: var(--Text-beige, #FFE8CF);
+text-align: right;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 2px;
+text-decoration-line: underline;
+cursor: pointer;
+}
+
+.loginform_section{
+    display: flex;
+    align-self: stretch;
+    gap: 10px;
+    flex-direction: column;
+}
+
+
+
+.password_termsection{
+    display: flex;
+width: 375px;
+flex-direction: column;
+align-items: flex-start;
+gap: 40px;
+align-self: stretch;
+}
+.submit_btn{
+    background: var(--Accent-red, #D0221A);
+    display: flex;
+width: 138px;
+height: 48px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 2px;
+color: var(--Text-beige, #FFE8CF);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Desktop/Button */
+font-family: Bellefair;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+align-self: center;
+}
+
+.submit_btn:hover{
+    background: var(--Accent-red, #D0221A);
+    display: flex;
+width: 138px;
+height: 48px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 2px;
+color: var(--Text-beige, #FFE8CF);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Desktop/Button */
+font-family: Bellefair;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+align-self: center;
+}
+
+.new_user{
+    color: var(--Text-beige, #FFE8CF);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Desktop/Body */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin: 0px;
+}
+
+.signup_link{
+    color: var(--Accent-red, #D0221A);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Desktop/Body */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+cursor: pointer;
+text-decoration: none;
+}
+
+.signup{
+    align-self: center;
+    display: flex;
+height: 32px;
+flex-direction: column;
+justify-content: center;
+align-self: stretch;
+}
+
+.pass_mismatch{
+    color: var(--Accent-red, #D0221A);
+font-feature-settings: 'ss05' on;
+font-family: Poppins;
+font-size: 14px;
+cursor: pointer;
+font-style: normal;
+font-weight: 300;
+line-height: 135%; /* 18.9px */
+    
+}
+
+.signup_form{
+    display: flex;
+align-items: flex-start;
+gap: 24px;
+}
+
+.user_info{
+    display: flex;
+width: 375px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+height: 192px;
+}
+
+.pass_terms_section{
+    display: flex;
+width: 375px;
+flex-direction: column;
+align-items: flex-start;
+gap: 40px;
+align-self: stretch;
+}
+
+.terms_condition{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 12px;
+align-self: stretch;
+}
+
+.checkbox{
+    display: flex;
+width: 375px;
+align-items: flex-start;
+gap: 16px;
+}
+
+.captcha_section{
+    display: flex;
+justify-content: space-between;
+align-items: flex-start;
+align-self: stretch;
+}
+
+
+
+.c-checkboxF input[type='checkbox']:checked~label:after,
+.c-checkboxF input[type='checkbox']:checked~.label:after {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+}
+
+.c-checkboxF>.c-divF>label:before,
+.c-checkboxF>.c-divF>.label:before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: none;
+    border: 1.9px solid #D0221A;
+    box-sizing: border-box;
+    box-shadow: none;
+    border-radius: 0px;
+    top: 4px;
+    left: 0px;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.c-checkboxF input[type='checkbox'] {
+    display: none;
+}
+
+.c-checkboxF input[type='checkbox']~label:after,
+.c-checkboxF input[type='checkbox']~.label:after {
+    content: url('../img/check_tick.svg');
+    display: block;
+    position: absolute;
+    color: #8482FF !important;
+    border-radius: 0px;
+    border: 0;
+    font-family: "Poppins";
+    font-size: 17px;
+    text-align: center;
+    line-height: 12px;
+    height: 1px;
+    width: 1px;
+    left: 0px;
+    top: 4px;
+    transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    -webkit-transition: all .15s ease;
+    -ms-transition: all .15s ease;
+    transition: all .15s ease;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.c-checkboxF {
+    position: relative;
+}
+
+.terms_sec{
+    color: var(--Text-beige, #FFE8CF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* Desktop/Body */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0px;
+}
+
+.imp_terms{
+    color: var(--Accent-red, #D0221A);
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* Desktop/Body */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.login_text::placeholder{
+    font-size: 14px;
+    color: var(--Text-beige, #FFE8CF);
+
+}
+
+.submitform_btn{
+    background: var(--Accent-red, #D0221A);
+    display: flex;
+width: 138px;
+height: 48px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 2px;
+color: var(--Text-beige, #FFE8CF);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Desktop/Button */
+font-family: Bellefair;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+align-self: center;
+}

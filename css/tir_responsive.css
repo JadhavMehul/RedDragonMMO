@@ -1,0 +1,544 @@
+@media only screen and (max-width: 600px) {
+    .mobile_none {
+        display: none;
+    }
+    .desktop_none {
+        display: block;
+    }
+
+    .au_tt {        
+        color: var(--Text-beige, #FFE8CF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Bellefair;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 94.8%; 
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        align-self: stretch;
+    }
+
+    .red_text1 {
+        color: var(--Accent-red, #D0221A);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Bellefair;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 94.8%;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        align-self: stretch;
+    }
+    .section1_au {
+        background: url(../img/mob_au_sec1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding-top: 126px;
+        padding-bottom: 82px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .section2_au {
+        background: url(../img/mob_au_sec2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding-top: 55.5px;
+        padding-bottom: 361.5px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .au_tt2 {
+        color: var(--Text-beige, #FFE8CF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Bellefair;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 114%; 
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+
+    .red_text2 {
+        color: var(--Accent-red, #D0221A);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Bellefair;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 114%;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+
+    .au_pp2 {
+        color: var(--Text-beige, #FFE8CF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-bottom: 0;
+    }
+
+    .text_div {
+        gap: 16px;
+    }
+
+    .in2_div {
+        gap: 14px;
+        max-width: 327px;
+    }
+
+    .in1_div {
+        gap: 24px;
+    }
+
+    .section4_au {
+        background: url(../img/mob_au_sec4.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding-top: 55.5px;
+        padding-bottom: 325px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .in4_div {
+        display: flex;
+        max-width: 327px;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .card_section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .card_crd {
+        width: 255px;
+    }
+
+    .sec3_tt {
+        color: var(--Dark, #1E1F21);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Bellefair;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 114%; 
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+
+    .crd_pp {
+        color: var(--Text-beige, #FFE8CF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Bellefair;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 94.8%;
+        letter-spacing: 3px;
+        text-transform: uppercase;  
+        margin-bottom: 0;
+    }
+
+    .crd_btn {
+        color: var(--Text-beige, #FFE8CF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Bellefair;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-bottom: 0;
+    }
+
+    .section3_au {
+        background: url(../img/mob_au_sec3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding: 52px 0px;
+    }
+
+    .gc_sec1 {
+        background: url(../img/mob_gc_sec1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding-top: 138px;
+        padding-bottom: 71.5px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .gc_sec2 {
+        padding: 42px 0px;
+        background: url(../img/mob_gc_sec2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    
+
+    .h_sec1 {
+        background: url(../img/mob_home1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding-top: 102px;
+        padding-bottom: 357px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .home_tt {
+        color: var(--Text-beige, #FFE8CF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Bellefair;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 94.8%; 
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        align-self: stretch;
+    }
+
+    .home_pp {
+        color: var(--Text-beige, #FFE8CF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-bottom: 0;
+        align-self: stretch;
+    }
+    .red_home1 {
+        color: var(--Accent-red, #D0221A);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Bellefair;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 94.8%;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+    .red_home2 {
+        color: var(--Accent-red, #D0221A);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Bellefair;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 114%;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+    .red_home4 {
+        color: var(--Accent-red, #D0221A);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Bellefair;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 94.8%;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+
+    .home_txt {
+        gap: 10px;
+    }
+    .homein_div {
+        align-items: center;
+        gap: 24px;
+    }
+    .au_btn_div {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+    .au_btn_div2 {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        flex-direction: column;
+    }
+
+    .home2sec_tt {
+        color: var(--Dark, #1E1F21);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Bellefair;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 114%; 
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        align-self: stretch;
+    }
+    .red_home_tt_second {
+        color: var(--Accent-red, #D0221A);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Bellefair;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 114%;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+
+    .home2_sec {
+        gap: 14px;
+    }
+    .home2_div {
+        gap: 24px;
+    }
+    .h_sec2 {
+        background: url(../img/mob_home2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding: 62px 12px;
+    }
+    .sec3h_tt {
+        color: var(--Text-beige, #FFE8CF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Bellefair;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 114%; 
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        align-self: stretch;
+    }
+    .inner_crdcrd {
+        gap: 24px;
+    }
+    .h_sec3 {
+        background: url(../img/mob_home3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding-top: 64px;
+        padding-bottom: 52px;
+    }
+
+    .sec4_htt {
+        color: var(--Text-beige, #FFE8CF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Bellefair;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 94.8%; 
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+
+    .sec4_hpp {
+        color: var(--Text-beige, #FFE8CF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-bottom: 0;
+    }
+
+    .sec4_texthome {
+        gap: 16px;
+    }
+    .sec4h_in {
+        gap: 24px;
+        align-items: center;
+    }
+
+    .h_sec4 {
+        background: url(../img/mob_hom4.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding-top: 76px;
+        padding-bottom: 332px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .h_sec5 {
+        background: url(../img/mob_home_sec5.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding: 64px 0px;
+    }
+
+    .game_div {
+        gap: 38px;
+    }
+
+    .home_txt2 {
+        gap: 14px;
+    }
+    .homein_div_2 {
+        gap: 24px;
+        align-items: center;
+    }
+    .home_tt_second {
+        color: var(--Text-beige, #FFE8CF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Bellefair;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 114%; 
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+    .h_sec6 {
+        background: url(../img/mob_home_last.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding-top: 55px;
+        padding-bottom: 355px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    
+    .img_classs {
+        display: none;
+    }
+    
+    .img_classs2 {
+        display: block;
+    }
+    
+    .sell_btn {
+        background: url(../img/sell_mob_btn.png);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        border-radius: 0px;
+        color: var(--Text-beige, #FFE8CF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: 'Bellefair';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+        padding: 13px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        width: 150px;
+    }
+
+    .bg_btn {
+        background: url(../img/bg_mob_btn.png);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        border-radius: 0px;
+        color: var(--Text-beige, #FFE8CF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: 'Bellefair';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+        padding: 13px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        width: 150px;
+    }
+    
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width:1348px) {
+    .card_crd {
+        width: 261px;
+        
+    }
+}
+@media only screen and (min-width: 1349px) and (max-width:1439px) {
+    .card_crd {
+        width: 261px;
+        
+    }
+}
+@media only screen and (min-width: 1440px) and (max-width:1499px) {
+    .card_crd {
+        width: 306px;
+       
+    }
+}
+@media only screen and (min-width: 1500px) and (max-width:1599px) {
+    
+}
+@media only screen and (min-width: 1600px) and (max-width:1699px) {
+    
+}
+@media only screen and (min-width: 1700px) and (max-width:1799px) {
+    
+}
+@media only screen and (min-width: 1800px) and (max-width:1919px) {
+    
+}

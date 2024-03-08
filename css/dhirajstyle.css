@@ -1,0 +1,349 @@
+/*///////////////////////////// CHECKOUT  ////////////////////////////////////// */
+.check_out {
+    background-image: url(../img/Secure_checkout.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.upperbox {
+    display: flex;
+    padding: 80px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    margin-top: 83px;
+}
+
+.secure_check {
+    color: var(--Text-beige, #FFE8CF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Bellefair";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 94.8%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.down_box {
+    display: flex;
+    align-items: flex-start;
+    gap: 26px;
+}
+
+.cart_summary_box {
+    display: flex;
+    padding: 60px;
+    flex-direction: column;
+    align-items: center;
+    gap: 42px;
+    border-radius: 4px;
+    border: 3px solid #D0221A;
+    background: rgba(30, 31, 33, 0.80);
+    width: 100%;
+    max-width: 591px;
+}
+
+.common_title {
+    color: var(--Accent-red, #D0221A);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Bellefair";
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 94.8%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 42px
+}
+
+.dic_box {
+    display: flex;
+    height: 48px;
+    padding: 8px 12px;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    border-radius: 4px;
+    border: 1px solid #171717;
+    background: var(--Dark, #1E1F21);
+    color: var(--Text-beige, #FFE8CF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 2px;
+    width: 100%;
+}
+
+.sub_total_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 26px;
+    width: 100%;
+}
+
+.discoutnt_box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.cart_apply_btn {
+    background: url(../img/button_apply.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    width: 100px;
+    color: var(--Text-beige, #FFE8CF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Bellefair';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.sub_total_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 100%;
+}
+
+.dicount_text {
+    display: flex;
+    height: 23px;
+    padding-right: 0.002px;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.dicount_name {
+    color: var(--Text-beige, #FFE8CF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.total_name {
+    color: var(--Accent-red, #D0221A);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Bellefair";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 94.8%;
+    /* 32.232px */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.billing_summary_box {
+    display: flex;
+    width: 100%;
+    max-width: 816px;
+    padding: 60px;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+    border-radius: 4px;
+    border: 3px solid #D0221A;
+    background: rgba(30, 31, 33, 0.80);
+}
+
+.forms_group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+    width: 100%;
+}
+
+
+.split_box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 24px;
+    align-self: stretch;
+    width: 100%;
+}
+
+.dics_box {
+    display: flex;
+    height: 48px;
+    padding: 8px 12px;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    border-radius: 4px;
+    border: 1px solid #171717;
+    background-color: var(--Dark, #1E1F21);
+    background-image: url(../img/Icon.svg);
+    color: var(--Text-beige, #FFE8CF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 2px;
+    width: 100%;
+}
+
+.custom_checkbox {
+    display: flex;
+    height: 36px;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.form-check-input:checked {
+    background-color: #D0221A !important;
+}
+
+.tick_box {
+    width: 21px;
+    height: 21px;
+    margin-top: 0px;
+}
+
+.terms_lline {
+    color: var(--Text-beige, #FFE8CF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}
+
+.odd {
+    color: var(--Accent-red, #D0221A);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+
+.master_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.img_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.captcha_box {
+    display: flex;
+    width: 495px;
+    align-items: center;
+    gap: 16px;
+}
+
+.cart_pro_btn {
+    background: url(../img/button_proceed.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    width: 100%;
+    max-width: 138px;
+    color: var(--Text-beige, #FFE8CF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Bellefair';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* PAYMENT SUCCESFULL */
+
+.payment_succes {
+    background-image: url(../img/Payment_completed.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.cart_home_btn{
+    background: url(../img/button_GO_TO.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    color: var(--Text-beige, #FFE8CF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Bellefair';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* PAYMENT FAILED */
+
+.payment_failed{
+    background-image: url(../img/payment_failed.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
